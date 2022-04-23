@@ -392,3 +392,7 @@ span#close_filter {
     z-index: 1111;
     font-size: 24px;
 }
+i.fa.fa-chevron-circle-down {
+    position: relative;
+    float: right;
+}

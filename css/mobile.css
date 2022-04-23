@@ -4,6 +4,7 @@
   }
 .top-nav.active{
   display: block;
+  transition: height 3s;
 }
 
   .top-nav {
@@ -88,6 +89,7 @@
     padding: 20px;
       background-color: white;
       z-index: 111;
+      transition: width 2s;
     }
     #filter{
       display: block;
