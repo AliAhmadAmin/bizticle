@@ -1,0 +1,158 @@
+@media (max-width : 730px) {
+  header {
+    padding: 15px 20px;
+  }
+.top-nav.active{
+  display: block;
+}
+
+  .top-nav {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d2436;
+    margin-left: auto;
+  }
+  .top-nav li{
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+  }
+
+  .fa-bars:before {
+    display: block;
+  }
+}
+
+@media (max-width : 610px) {
+  .nav-bottom {
+    padding: 5px 5px;
+  }
+  .nav-bottom-links li{
+    margin-right: 10px;
+  }
+  .select{
+    margin-right: 5px;
+  }
+}
+@media (max-width : 396px) {
+  .nav-bottom-links li{
+    margin-right: 6px;
+
+    font-size: 11px;
+  }
+  .select{
+    font-size: 12px;
+  }
+}
+
+@media (max-width : 428px) {
+  .nav-bottom-links li{
+    margin-right: 6px;
+
+    font-size: 11px;
+  }
+  .select{
+    font-size: 12px;
+  }
+}
+
+@media (max-width : 367px) {
+  .s2-col2-s1-h2{
+    font-size: 12px;
+  }
+}
+
+@media (max-width : 782px) {
+  .s2-col2-content{
+    width: fit-content !important;
+  }
+  .s2-col2-content{
+    margin-right: 0px !important;
+  }
+}
+
+  @media (max-width : 522px) {
+    .section2-col1.active{
+      display: block !important;
+    }
+    .section2-col1 {
+      display: none !important;
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100% !important;
+    padding: 20px;
+      background-color: white;
+      z-index: 111;
+    }
+    #filter{
+      display: block;
+    }
+    .footer-bottom{
+      flex-direction: column;
+    }
+    .socials{
+      margin-top: 10px;
+    }
+  }
+
+@media (max-width : 1040px) {
+  .input{
+    width:100%;
+  }
+  #input{
+    width: none;
+  }
+}
+@media (max-width : 1200px) {
+  .s2-col2-content{
+    width: 48%;
+  }
+  .section2-col1{
+    width: fit-content;
+  }
+  #form1{
+    justify-content: center;
+  }
+  #input{
+    width: 100% !important;
+  }
+  .input{
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .section1-li{
+    border-right: none;
+    width: 100%;
+  }
+  button.search{
+    margin-top: 5px;
+    float: right;
+    border-radius: 10px;
+  }
+  .footer-container{
+    width: 90%;
+  }
+  footer {
+    padding: 20px 10px;
+    }
+    .footer-bottom{
+      margin:18px 0px 0px 0px ;
+    }
+    /* .section1{
+      display: none;
+    } */
+    .main-content{
+      padding: 5px 10px;
+    }
+}
+@media (max-width : 450px) {
+  .footer-top ul{
+    margin-bottom: 10px;
+  }
+}
